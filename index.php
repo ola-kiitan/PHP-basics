@@ -1,4 +1,3 @@
-<?php require "function.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,25 @@
  <title>PHP</title>
 </head>
 <body>
+ <?php
+$people = [
+ [
+  "first_name" => "Ola",
+  "last_name" => "oginni",
+ ],
+  [
+  "first_name" => "fola",
+  "last_name" => "boginni",
+ ],
+  [
+  "first_name" => "sOla",
+  "last_name" => "toginni",
+ ],
+];
+
+
  
+ ?>
 
 
 </body>
